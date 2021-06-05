@@ -25,7 +25,11 @@ public class FileOutputStreamUsingScannerClass {
 		{
 			e.printStackTrace();
 		}
+		finally {
+			System.out.println("Finally Block");
+		}
 	}
+	
 	
 
 }
