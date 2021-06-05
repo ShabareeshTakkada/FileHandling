@@ -15,6 +15,10 @@ public class FileOutputStreamUsingScannerClass {
 		
 			System.out.println("Enter the content Type...");
 			
+<<<<<<< HEAD
+=======
+			System.out.println("Enter the message...");
+>>>>>>> refs/heads/Feature
 			String content = sc.nextLine();
 			
 			byte[] b = content.getBytes();
