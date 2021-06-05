@@ -12,8 +12,9 @@ public class FileOutputStreamUsingScannerClass {
 			String filePath = sc.nextLine();
 			
 			FileOutputStream fos = new FileOutputStream(filePath, true);
-			
+		
 			System.out.println("Enter the content Type...");
+			
 			String content = sc.nextLine();
 			
 			byte[] b = content.getBytes();
