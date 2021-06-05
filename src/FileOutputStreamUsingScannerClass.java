@@ -13,7 +13,7 @@ public class FileOutputStreamUsingScannerClass {
 			
 			FileOutputStream fos = new FileOutputStream(filePath, true);
 			
-			System.out.println("Enter the content...");
+			System.out.println("Enter the message...");
 			String content = sc.nextLine();
 			
 			byte[] b = content.getBytes();
