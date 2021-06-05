@@ -12,13 +12,8 @@ public class FileOutputStreamUsingScannerClass {
 			String filePath = sc.nextLine();
 			
 			FileOutputStream fos = new FileOutputStream(filePath, true);
-		
-			System.out.println("Enter the content Type...");
 			
-<<<<<<< HEAD
-=======
 			System.out.println("Enter the message...");
->>>>>>> refs/heads/Feature
 			String content = sc.nextLine();
 			
 			byte[] b = content.getBytes();
@@ -30,11 +25,7 @@ public class FileOutputStreamUsingScannerClass {
 		{
 			e.printStackTrace();
 		}
-		finally {
-			System.out.println("Finally Block");
-		}
 	}
-	
 	
 
 }
