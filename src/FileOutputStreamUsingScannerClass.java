@@ -12,7 +12,7 @@ public class FileOutputStreamUsingScannerClass {
 			String filePath = sc.nextLine();
 			
 			FileOutputStream fos = new FileOutputStream(filePath, true);
-			
+		
 			System.out.println("Enter the message...");
 			String content = sc.nextLine();
 			
@@ -25,7 +25,11 @@ public class FileOutputStreamUsingScannerClass {
 		{
 			e.printStackTrace();
 		}
+		finally {
+			System.out.println("Finally Block");
+		}
 	}
+	
 	
 
 }
